@@ -3,8 +3,12 @@
   padding: 0;
   font-family: 'Fredoka', sans-serif;
 }
+body {
+  width: 100%;
+}
 /* STILIZACIJA NAVIGACIJE */
 .navigacija {
+  width: 98.5vw;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -19,6 +23,7 @@
 }
 .levo {
   display: grid;
+  box-sizing: border-box;
   justify-items: left;
   padding-left: 1.5rem;
   font-size: 20px;
@@ -48,7 +53,7 @@
 .slika2 {
   position: relative;
   background-size: cover;
-  width: 100vw;
+  width: 100%;
 }
 .tekst-na-slici {
   position: absolute;
@@ -60,6 +65,9 @@
 /* KRAJ STILIZACIJE SLIKE I TEKSTA */
 
 /* STILIZACIJA GRID-IKONICA SA 4 ELEMENTA */
+.cetiri-ikonice {
+  width: 98.5vw;
+}
 .kolona {
   display: grid;
   justify-items: center;
@@ -79,6 +87,9 @@
 /* KRAJ STILIZACIJA GRID-IKONICA SA 4 ELEMENTA */
 
 /* STILIZACIJA GRID-SLIKA SA 4 ELEMENTA */
+.cetiri-slike {
+  width: 98.5vw;
+}
 .h2-tekst2 {
   margin: 60px 0 0 20px;
 }
@@ -105,9 +116,10 @@
 /* STILIZACIJA GRID-O-NAMA SA 3 ELEMENTA */
 .o-nama {
   background-color: rgb(36, 36, 36);
+  width: 98.5vw;
 }
 .kolona3 {
-  width: 80vw;
+  width: 70vw;
 }
 .tekst-slika2 {
   margin-top: 80px;
