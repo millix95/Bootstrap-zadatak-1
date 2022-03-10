@@ -205,7 +205,7 @@ body {
     margin: 0 auto;
   }
   .cetiri-slike {
-    width: 90vw;
+    width: 80vw;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -226,13 +226,16 @@ body {
     width: 90vw;
   }
   .kolona2 {
-    width: 85%;
+    display: grid;
+    width: 100%;
   }
   .kolona3 {
-    width: 85vw;
+    width: 80vw;
+  }
+  .kolona4 {
+    width: 80vw;
   }
   .h2-tekst4 {
-    width: 80vw;
-    margin-left: 4.5rem;
+    margin-top: 40px;
   }
 }
