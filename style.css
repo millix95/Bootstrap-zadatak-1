@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Fredoka', sans-serif;
+}
+/* STILIZACIJA NAVIGACIJE */
+.navigacija {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.menu-ikonica {
+  width: 10px;
+}
+.desno {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  justify-items: end;
+  align-items: center;
+}
+.levo {
+  display: grid;
+  justify-items: left;
+  padding-left: 1.5rem;
+  font-size: 20px;
+}
+.slika1 {
+  margin-right: 10px;
+  width: 0.75rem;
+}
+.h1-naslov {
+  font-size: 2rem;
+  font-weight: 100;
+}
+.h2-menu {
+  font-size: 20px;
+  font-weight: 100;
+  align-items: center;
+  margin: 0 10px 0 0;
+}
+/*KRAJ STILIZACIJE NAVIGACIJE */
+
+/* STILIZACIJA SLIKE I TEKSTA */
+.slika-tekst {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+.slika2 {
+  position: relative;
+  background-size: cover;
+  width: 100vw;
+}
+.tekst-na-slici {
+  position: absolute;
+  font-size: 1rem;
+  color: white;
+  padding: 10px 5px;
+  background-color: rgb(67, 175, 139);
+}
+/* KRAJ STILIZACIJE SLIKE I TEKSTA */
+
+/* STILIZACIJA GRID-IKONICA SA 4 ELEMENTA */
+.kolona {
+  display: grid;
+  justify-items: center;
+  width: 80vw;
+  margin-top: 60px;
+}
+.p-tekst {
+  font-weight: 100;
+  text-align: center;
+}
+.row {
+  justify-content: center;
+}
+.ikonica {
+  width: 3rem;
+}
+/* KRAJ STILIZACIJA GRID-IKONICA SA 4 ELEMENTA */
+
+/* STILIZACIJA GRID-SLIKA SA 4 ELEMENTA */
+.h2-tekst2 {
+  margin: 60px 0 0 20px;
+}
+.hr-work {
+  margin: 0;
+}
+.kolona2 {
+  display: grid;
+  justify-items: left;
+  width: 80vw;
+  margin-top: 20px;
+}
+.slika3 {
+  width: 100%;
+}
+.p-tekst2 {
+  font-weight: 100;
+}
+.tekst-slika {
+  margin-bottom: 0;
+}
+/* KRAJ STILIZACIJE GRID-SLIKA SA 4 ELEMENTA */
+
+/* STILIZACIJA GRID-O-NAMA SA 3 ELEMENTA */
+.o-nama {
+  background-color: rgb(36, 36, 36);
+}
+.kolona3 {
+  width: 80vw;
+}
+.tekst-slika2 {
+  margin-top: 80px;
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+}
+.p-tekst3 {
+  margin-top: 10px;
+  color: rgb(100, 100, 100);
+  line-height: 2rem;
+  margin-bottom: 50px;
+}
+.hr-onama {
+  margin-top: 40px;
+  margin-bottom: 0;
+  color: white;
+}
+.o-nama1 {
+  padding: 5px 0;
+  font-weight: 100;
+  margin: 0;
+  font-size: 1.5rem;
+}
+.hr-onama1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+}
+.o-nama2 {
+  padding: 5px 0;
+  font-weight: 100;
+  margin: 0;
+  font-size: 1.5rem;
+}
+.kol {
+  margin-top: 50px;
+}
+.kol1 {
+  margin-top: 30px;
+}
+/*KRAJ STILIZACIJA GRID-O-NAMA SA 3 ELEMENTA */
+
+/* STILIZACIJA FOOTERA */
+.footer {
+  background-color: rgb(26, 26, 26);
+  color: rgb(92, 92, 92);
+  padding: 30px 0;
+  text-align: center;
+}
+/* KRAJ STILIZACIJE FOOTERA */
