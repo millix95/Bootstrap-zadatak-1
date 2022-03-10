@@ -93,6 +93,10 @@ body {
   width: 100vw;
   margin: 0;
 }
+.cetiri-slike2 {
+  width: 100vw;
+  margin: 0;
+}
 .h2-tekst2 {
   margin: 60px 0 0 20px;
 }
@@ -207,18 +211,28 @@ body {
     grid-template-columns: 1fr 1fr;
     justify-items: center;
   }
+  .p-tekst {
+    width: 80vw;
+  }
   .hr-work {
-    width: 90vw;
+    width: 80vw;
     margin: 0 auto 30px auto;
   }
   .h2-tekst2 {
-    width: 90vw;
+    width: 80vw;
     margin: 0 auto;
   }
+  .kolona {
+    width: 90vw;
+  }
   .kolona2 {
-    width: 90%;
+    width: 85%;
   }
   .kolona3 {
     width: 85vw;
+  }
+  .h2-tekst4 {
+    width: 80vw;
+    margin-left: 4.5rem;
   }
 }
