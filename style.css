@@ -66,7 +66,8 @@ body {
 
 /* STILIZACIJA GRID-IKONICA SA 4 ELEMENTA */
 .cetiri-ikonice {
-  width: 98.5vw;
+  width: 100vw;
+  margin: 0;
 }
 .kolona {
   display: grid;
@@ -88,7 +89,8 @@ body {
 
 /* STILIZACIJA GRID-SLIKA SA 4 ELEMENTA */
 .cetiri-slike {
-  width: 98.5vw;
+  width: 100vw;
+  margin: 0;
 }
 .h2-tekst2 {
   margin: 60px 0 0 20px;
@@ -116,7 +118,8 @@ body {
 /* STILIZACIJA GRID-O-NAMA SA 3 ELEMENTA */
 .o-nama {
   background-color: rgb(36, 36, 36);
-  width: 98.5vw;
+  width: 100vw;
+  margin: 0;
 }
 .kolona3 {
   width: 70vw;
