@@ -60,6 +60,7 @@ body {
   font-size: 1rem;
   color: white;
   padding: 10px 5px;
+  margin: 0;
   background-color: rgb(67, 175, 139);
 }
 /* KRAJ STILIZACIJE SLIKE I TEKSTA */
@@ -95,13 +96,17 @@ body {
 .h2-tekst2 {
   margin: 60px 0 0 20px;
 }
+.h2-tekst4 {
+  margin: 60px 0 0 20px;
+}
 .hr-work {
-  margin: 0;
+  margin: 0 auto;
+  width: 90vw;
 }
 .kolona2 {
   display: grid;
   justify-items: left;
-  width: 80vw;
+  width: 95vw;
   margin-top: 20px;
 }
 .slika3 {
@@ -111,6 +116,8 @@ body {
   font-weight: 100;
 }
 .tekst-slika {
+  font-size: 1rem;
+  margin-top: 2rem;
   margin-bottom: 0;
 }
 /* KRAJ STILIZACIJE GRID-SLIKA SA 4 ELEMENTA */
@@ -122,10 +129,11 @@ body {
   margin: 0;
 }
 .kolona3 {
-  width: 70vw;
+  width: 95vw;
 }
 .tekst-slika2 {
   margin-top: 80px;
+  margin-bottom: 40px;
   color: rgb(255, 255, 255);
   font-size: 2rem;
 }
@@ -135,10 +143,8 @@ body {
   line-height: 2rem;
   margin-bottom: 50px;
 }
-.hr-onama {
-  margin-top: 40px;
-  margin-bottom: 0;
-  color: white;
+.zad-txt {
+  margin-bottom: 4rem;
 }
 .o-nama1 {
   padding: 5px 0;
@@ -188,7 +194,7 @@ body {
   }
   .tekst-na-slici {
     position: relative;
-    bottom: 240px;
+    bottom: 15rem;
   }
   .cetiri-ikonice {
     width: 90vw;
