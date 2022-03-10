@@ -177,3 +177,42 @@ body {
   text-align: center;
 }
 /* KRAJ STILIZACIJE FOOTERA */
+
+/* ------------------------------------------------------------------------- */
+/* ---------------------PODESAVANJE ZA TABLET UREDJAJE---------------------- */
+/* ------------------------------------------------------------------------- */
+
+@media screen and (min-width: 768px) {
+  .desno {
+    padding-right: 20px;
+  }
+  .tekst-na-slici {
+    position: relative;
+    bottom: 240px;
+  }
+  .cetiri-ikonice {
+    width: 90vw;
+    margin: 0 auto;
+  }
+  .cetiri-slike {
+    width: 90vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+  .hr-work {
+    width: 90vw;
+    margin: 0 auto 30px auto;
+  }
+  .h2-tekst2 {
+    width: 90vw;
+    margin: 0 auto;
+  }
+  .kolona2 {
+    width: 90%;
+  }
+  .kolona3 {
+    width: 85vw;
+  }
+}
