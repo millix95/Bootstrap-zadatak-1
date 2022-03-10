@@ -113,6 +113,12 @@ body {
   width: 95vw;
   margin-top: 20px;
 }
+.kolona4 {
+  display: grid;
+  justify-items: left;
+  width: 95vw;
+  margin-top: 20px;
+}
 .slika3 {
   width: 100%;
 }
@@ -238,4 +244,7 @@ body {
   .h2-tekst4 {
     margin-top: 40px;
   }
+}
+
+@media screen and (min-width: 1080px) {
 }
