@@ -238,12 +238,17 @@ body {
   }
   .kolona3 {
     width: 80vw;
+    margin: 0;
   }
   .kolona4 {
     width: 80vw;
   }
   .h2-tekst4 {
     margin-top: 40px;
+  }
+  .onama {
+    width: 80vw;
+    margin: 0 auto;
   }
 }
 
