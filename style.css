@@ -18,9 +18,11 @@ body {
 }
 .desno {
   display: grid;
-  grid-template-columns: 5fr 1fr;
+  grid-template-columns: repeat(8, 1fr);
   justify-items: end;
   align-items: center;
+  position: relative;
+  left: 25vw;
 }
 .levo {
   display: grid;
@@ -42,6 +44,9 @@ body {
   font-weight: 100;
   align-items: center;
   margin: 0 10px 0 0;
+}
+.h2 {
+  margin-right: 15vw;
 }
 /*KRAJ STILIZACIJE NAVIGACIJE */
 
@@ -202,6 +207,7 @@ body {
 @media screen and (min-width: 768px) {
   .desno {
     padding-right: 20px;
+    left: 300px;
   }
   .tekst-na-slici {
     position: relative;
@@ -228,6 +234,7 @@ body {
   .h2-tekst2 {
     width: 80vw;
     margin: 0 auto;
+    margin-top: 40px;
   }
   .kolona {
     width: 90vw;
@@ -238,7 +245,7 @@ body {
   }
   .kolona3 {
     width: 80vw;
-    margin: 0;
+    margin: 50px 0 0 0;
   }
   .kolona4 {
     width: 80vw;
@@ -346,8 +353,9 @@ body {
     margin-top: 40px;
   }
   .desno {
-    padding: 20px;
+    padding: 0;
     grid-template-columns: repeat(8, 1fr);
+    left: -10vw;
   }
   .slika1 {
     visibility: hidden;
